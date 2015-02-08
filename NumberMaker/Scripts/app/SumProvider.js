@@ -77,7 +77,7 @@ function SumProvider() {
         }
         correctAnswer = correctAnswer / 10;
         firstNumber = firstNumber / 10;
-        var sum = "What is " + firstNumber + " rounded to the nearest whole number?";
+        var sum = "What is " + firstNumber + " rounded to the nearest whole number??";
         return new Sum(sum, correctAnswer);
     };
 }
